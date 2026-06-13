@@ -18,7 +18,7 @@ var siteConfig = {
     "popupMessage": "",
     "faviconUrl": "/images/verified_vault_logo.webp",
     "logoUrl": "/images/verified_vault_logo.webp",
-    "analyticsId": "G-KFPRTJHYQ8",
+    "analyticsId": "",
     "redirects": []
 };
 
