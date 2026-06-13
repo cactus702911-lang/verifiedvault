@@ -1,4 +1,4 @@
-User-agent: *
+﻿User-agent: *
 Disallow: /admin.html
 Allow: /$
 Allow: /blog/
@@ -16,4 +16,4 @@ Allow: /images/
 Allow: /*.css$
 Allow: /*.js$
 Allow: /favicon.svg
-Sitemap: https://bestpvashop.com/sitemap.xml
+Sitemap: https://verifiedvault.xyz/sitemap.xml

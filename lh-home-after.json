@@ -1,4 +1,4 @@
-{
+﻿{
   "lighthouseVersion": "13.1.0",
   "requestedUrl": "http://127.0.0.1:8080/",
   "mainDocumentUrl": "http://127.0.0.1:8080/",
@@ -1695,7 +1695,7 @@
                 "height": 15250
               },
               "snippet": "<div id=\"product-grid\" class=\"grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6\">",
-              "nodeLabel": "GOOGLE\nGoogle Reviews\n\nStarting from\n\n$25.00\n\nOrder Now\nSale!\nBestPVAShop\nNegat…"
+              "nodeLabel": "GOOGLE\nGoogle Reviews\n\nStarting from\n\n$25.00\n\nOrder Now\nSale!\nverifiedvault\nNegat…"
             },
             "value": {
               "type": "numeric",

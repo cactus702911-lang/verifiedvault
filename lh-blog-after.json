@@ -1,4 +1,4 @@
-{
+﻿{
   "lighthouseVersion": "13.1.0",
   "requestedUrl": "http://127.0.0.1:8080/blog/",
   "mainDocumentUrl": "http://127.0.0.1:8080/blog/",
@@ -603,7 +603,7 @@
             "entity": "127.0.0.1"
           },
           {
-            "url": "https://bestpvashop.com/images/blog/google-reviews.jpg",
+            "url": "https://verifiedvault.xyz/images/blog/google-reviews.jpg",
             "sessionTargetType": "page",
             "protocol": "",
             "rendererStartTime": 148.97999995946884,
@@ -617,10 +617,10 @@
             "resourceType": "Image",
             "priority": "Low",
             "experimentalFromMainFrame": true,
-            "entity": "bestpvashop.com"
+            "entity": "verifiedvault.xyz"
           },
           {
-            "url": "https://bestpvashop.com/images/blog/google-5-star-reviews.jpg",
+            "url": "https://verifiedvault.xyz/images/blog/google-5-star-reviews.jpg",
             "sessionTargetType": "page",
             "protocol": "",
             "rendererStartTime": 149.1469999551773,
@@ -634,10 +634,10 @@
             "resourceType": "Image",
             "priority": "Low",
             "experimentalFromMainFrame": true,
-            "entity": "bestpvashop.com"
+            "entity": "verifiedvault.xyz"
           },
           {
-            "url": "https://bestpvashop.com/images/blog/what-is-pva.jpg",
+            "url": "https://verifiedvault.xyz/images/blog/what-is-pva.jpg",
             "sessionTargetType": "page",
             "protocol": "",
             "rendererStartTime": 149.2490000128746,
@@ -651,10 +651,10 @@
             "resourceType": "Image",
             "priority": "Low",
             "experimentalFromMainFrame": true,
-            "entity": "bestpvashop.com"
+            "entity": "verifiedvault.xyz"
           },
           {
-            "url": "https://bestpvashop.com/images/blog/digital-marketing-pva.jpg",
+            "url": "https://verifiedvault.xyz/images/blog/digital-marketing-pva.jpg",
             "sessionTargetType": "page",
             "protocol": "",
             "rendererStartTime": 149.33799999952316,
@@ -668,10 +668,10 @@
             "resourceType": "Image",
             "priority": "Low",
             "experimentalFromMainFrame": true,
-            "entity": "bestpvashop.com"
+            "entity": "verifiedvault.xyz"
           },
           {
-            "url": "https://bestpvashop.com/images/blog/pva-safety.jpg",
+            "url": "https://verifiedvault.xyz/images/blog/pva-safety.jpg",
             "sessionTargetType": "page",
             "protocol": "",
             "rendererStartTime": 149.42599999904633,
@@ -685,10 +685,10 @@
             "resourceType": "Image",
             "priority": "Low",
             "experimentalFromMainFrame": true,
-            "entity": "bestpvashop.com"
+            "entity": "verifiedvault.xyz"
           },
           {
-            "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-KFPRTJHYQ8&gtm=45je64f1v9241036352za200zd9241036352&_p=1776653928727&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1035296792.1776653929&frm=0&pscdl=noapi&rcb=12&sr=412x823&uaa=&uab=64&uafvl=Google%2520Chrome%3B147.0.7727.101%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.101&uam=moto%20g%20power%20(2022)&uamb=1&uap=Android&uapv=11.0&uaw=0&ul=en-us&_s=1&tag_exp=0~115938466~115938469~117266401~117384406&sid=1776653929&sct=1&seg=0&dl=http%3A%2F%2F127.0.0.1%2Fblog%2F&dt=BestPVAShop%20Blog%20%E2%80%93%20Digital%20Marketing%20Tips&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=558",
+            "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-KFPRTJHYQ8&gtm=45je64f1v9241036352za200zd9241036352&_p=1776653928727&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1035296792.1776653929&frm=0&pscdl=noapi&rcb=12&sr=412x823&uaa=&uab=64&uafvl=Google%2520Chrome%3B147.0.7727.101%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.101&uam=moto%20g%20power%20(2022)&uamb=1&uap=Android&uapv=11.0&uaw=0&ul=en-us&_s=1&tag_exp=0~115938466~115938469~117266401~117384406&sid=1776653929&sct=1&seg=0&dl=http%3A%2F%2F127.0.0.1%2Fblog%2F&dt=verifiedvault%20Blog%20%E2%80%93%20Digital%20Marketing%20Tips&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=558",
             "sessionTargetType": "page",
             "protocol": "h2",
             "rendererStartTime": 556.2069999575615,
@@ -1337,7 +1337,7 @@
             "totalBytes": 17901
           },
           {
-            "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-KFPRTJHYQ8&gtm=45je64f1v9241036352za200zd9241036352&_p=1776653928727&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1035296792.1776653929&frm=0&pscdl=noapi&rcb=12&sr=412x823&uaa=&uab=64&uafvl=Google%2520Chrome%3B147.0.7727.101%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.101&uam=moto%20g%20power%20(2022)&uamb=1&uap=Android&uapv=11.0&uaw=0&ul=en-us&_s=1&tag_exp=0~115938466~115938469~117266401~117384406&sid=1776653929&sct=1&seg=0&dl=http%3A%2F%2F127.0.0.1%2Fblog%2F&dt=BestPVAShop%20Blog%20%E2%80%93%20Digital%20Marketing%20Tips&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=558",
+            "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-KFPRTJHYQ8&gtm=45je64f1v9241036352za200zd9241036352&_p=1776653928727&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1035296792.1776653929&frm=0&pscdl=noapi&rcb=12&sr=412x823&uaa=&uab=64&uafvl=Google%2520Chrome%3B147.0.7727.101%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.101&uam=moto%20g%20power%20(2022)&uamb=1&uap=Android&uapv=11.0&uaw=0&ul=en-us&_s=1&tag_exp=0~115938466~115938469~117266401~117384406&sid=1776653929&sct=1&seg=0&dl=http%3A%2F%2F127.0.0.1%2Fblog%2F&dt=verifiedvault%20Blog%20%E2%80%93%20Digital%20Marketing%20Tips&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=558",
             "totalBytes": 547
           },
           {
@@ -2258,7 +2258,7 @@
               "type": "subitems",
               "items": [
                 {
-                  "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-KFPRTJHYQ8&gtm=45je64f1v9241036352za200zd9241036352&_p=1776653928727&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1035296792.1776653929&frm=0&pscdl=noapi&rcb=12&sr=412x823&uaa=&uab=64&uafvl=Google%2520Chrome%3B147.0.7727.101%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.101&uam=moto%20g%20power%20(2022)&uamb=1&uap=Android&uapv=11.0&uaw=0&ul=en-us&_s=1&tag_exp=0~115938466~115938469~117266401~117384406&sid=1776653929&sct=1&seg=0&dl=http%3A%2F%2F127.0.0.1%2Fblog%2F&dt=BestPVAShop%20Blog%20%E2%80%93%20Digital%20Marketing%20Tips&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=558",
+                  "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-KFPRTJHYQ8&gtm=45je64f1v9241036352za200zd9241036352&_p=1776653928727&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1035296792.1776653929&frm=0&pscdl=noapi&rcb=12&sr=412x823&uaa=&uab=64&uafvl=Google%2520Chrome%3B147.0.7727.101%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.101&uam=moto%20g%20power%20(2022)&uamb=1&uap=Android&uapv=11.0&uaw=0&ul=en-us&_s=1&tag_exp=0~115938466~115938469~117266401~117384406&sid=1776653929&sct=1&seg=0&dl=http%3A%2F%2F127.0.0.1%2Fblog%2F&dt=verifiedvault%20Blog%20%E2%80%93%20Digital%20Marketing%20Tips&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=558",
                   "mainThreadTime": 0,
                   "transferSize": 547
                 }
@@ -2723,9 +2723,9 @@
       "category": "tag-manager"
     },
     {
-      "name": "bestpvashop.com",
+      "name": "verifiedvault.xyz",
       "origins": [
-        "https://bestpvashop.com"
+        "https://verifiedvault.xyz"
       ],
       "isUnrecognized": true
     },

@@ -1,4 +1,4 @@
-{
+﻿{
   "lighthouseVersion": "13.1.0",
   "requestedUrl": "http://127.0.0.1:8080/product/buy-google-reviews-review-system-testing-management-package/",
   "mainDocumentUrl": "http://127.0.0.1:8080/product/buy-google-reviews-review-system-testing-management-package/",
@@ -621,7 +621,7 @@
             "entity": "127.0.0.1"
           },
           {
-            "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-KFPRTJHYQ8&gtm=45je64f1v9241036352za200zd9241036352&_p=1776653878246&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1554023994.1776653879&frm=0&pscdl=noapi&rcb=18&sr=412x823&uaa=&uab=64&uafvl=Google%2520Chrome%3B147.0.7727.101%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.101&uam=moto%20g%20power%20(2022)&uamb=1&uap=Android&uapv=11.0&uaw=0&ul=en-us&_s=1&tag_exp=0~115938466~115938468~117266401&sid=1776653878&sct=1&seg=0&dl=http%3A%2F%2F127.0.0.1%2Fproduct%2Fbuy-google-reviews-review-system-testing-management-package%2F&dt=Buy%20Google%20Reviews%20%E2%80%93%20Review%20System%20Testing%20%26%20Management%20Package%20%E2%80%93%20Verified%20%26%20Fast%20%7C%20BestPVAShop&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=552",
+            "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-KFPRTJHYQ8&gtm=45je64f1v9241036352za200zd9241036352&_p=1776653878246&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1554023994.1776653879&frm=0&pscdl=noapi&rcb=18&sr=412x823&uaa=&uab=64&uafvl=Google%2520Chrome%3B147.0.7727.101%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.101&uam=moto%20g%20power%20(2022)&uamb=1&uap=Android&uapv=11.0&uaw=0&ul=en-us&_s=1&tag_exp=0~115938466~115938468~117266401&sid=1776653878&sct=1&seg=0&dl=http%3A%2F%2F127.0.0.1%2Fproduct%2Fbuy-google-reviews-review-system-testing-management-package%2F&dt=Buy%20Google%20Reviews%20%E2%80%93%20Review%20System%20Testing%20%26%20Management%20Package%20%E2%80%93%20Verified%20%26%20Fast%20%7C%20verifiedvault&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=552",
             "sessionTargetType": "page",
             "protocol": "h2",
             "rendererStartTime": 551.0859999656677,
@@ -1227,7 +1227,7 @@
             "totalBytes": 17901
           },
           {
-            "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-KFPRTJHYQ8&gtm=45je64f1v9241036352za200zd9241036352&_p=1776653878246&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1554023994.1776653879&frm=0&pscdl=noapi&rcb=18&sr=412x823&uaa=&uab=64&uafvl=Google%2520Chrome%3B147.0.7727.101%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.101&uam=moto%20g%20power%20(2022)&uamb=1&uap=Android&uapv=11.0&uaw=0&ul=en-us&_s=1&tag_exp=0~115938466~115938468~117266401&sid=1776653878&sct=1&seg=0&dl=http%3A%2F%2F127.0.0.1%2Fproduct%2Fbuy-google-reviews-review-system-testing-management-package%2F&dt=Buy%20Google%20Reviews%20%E2%80%93%20Review%20System%20Testing%20%26%20Management%20Package%20%E2%80%93%20Verified%20%26%20Fast%20%7C%20BestPVAShop&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=552",
+            "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-KFPRTJHYQ8&gtm=45je64f1v9241036352za200zd9241036352&_p=1776653878246&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1554023994.1776653879&frm=0&pscdl=noapi&rcb=18&sr=412x823&uaa=&uab=64&uafvl=Google%2520Chrome%3B147.0.7727.101%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.101&uam=moto%20g%20power%20(2022)&uamb=1&uap=Android&uapv=11.0&uaw=0&ul=en-us&_s=1&tag_exp=0~115938466~115938468~117266401&sid=1776653878&sct=1&seg=0&dl=http%3A%2F%2F127.0.0.1%2Fproduct%2Fbuy-google-reviews-review-system-testing-management-package%2F&dt=Buy%20Google%20Reviews%20%E2%80%93%20Review%20System%20Testing%20%26%20Management%20Package%20%E2%80%93%20Verified%20%26%20Fast%20%7C%20verifiedvault&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=552",
             "totalBytes": 547
           },
           {
@@ -2202,7 +2202,7 @@
               "type": "subitems",
               "items": [
                 {
-                  "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-KFPRTJHYQ8&gtm=45je64f1v9241036352za200zd9241036352&_p=1776653878246&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1554023994.1776653879&frm=0&pscdl=noapi&rcb=18&sr=412x823&uaa=&uab=64&uafvl=Google%2520Chrome%3B147.0.7727.101%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.101&uam=moto%20g%20power%20(2022)&uamb=1&uap=Android&uapv=11.0&uaw=0&ul=en-us&_s=1&tag_exp=0~115938466~115938468~117266401&sid=1776653878&sct=1&seg=0&dl=http%3A%2F%2F127.0.0.1%2Fproduct%2Fbuy-google-reviews-review-system-testing-management-package%2F&dt=Buy%20Google%20Reviews%20%E2%80%93%20Review%20System%20Testing%20%26%20Management%20Package%20%E2%80%93%20Verified%20%26%20Fast%20%7C%20BestPVAShop&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=552",
+                  "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-KFPRTJHYQ8&gtm=45je64f1v9241036352za200zd9241036352&_p=1776653878246&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1554023994.1776653879&frm=0&pscdl=noapi&rcb=18&sr=412x823&uaa=&uab=64&uafvl=Google%2520Chrome%3B147.0.7727.101%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.101&uam=moto%20g%20power%20(2022)&uamb=1&uap=Android&uapv=11.0&uaw=0&ul=en-us&_s=1&tag_exp=0~115938466~115938468~117266401&sid=1776653878&sct=1&seg=0&dl=http%3A%2F%2F127.0.0.1%2Fproduct%2Fbuy-google-reviews-review-system-testing-management-package%2F&dt=Buy%20Google%20Reviews%20%E2%80%93%20Review%20System%20Testing%20%26%20Management%20Package%20%E2%80%93%20Verified%20%26%20Fast%20%7C%20verifiedvault&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=552",
                   "mainThreadTime": 0,
                   "transferSize": 547
                 }

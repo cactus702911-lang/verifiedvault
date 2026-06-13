@@ -1,4 +1,4 @@
-{
+﻿{
   "lighthouseVersion": "13.1.0",
   "requestedUrl": "http://127.0.0.1:8080/",
   "mainDocumentUrl": "http://127.0.0.1:8080/",
@@ -689,7 +689,7 @@
             "entity": "127.0.0.1"
           },
           {
-            "url": "http://127.0.0.1:8080/images/products/Buy%20Twitter%20Account%20x%20bestpvashop.com.png",
+            "url": "http://127.0.0.1:8080/images/products/Buy%20Twitter%20Account%20x%20verifiedvault.xyz.png",
             "sessionTargetType": "page",
             "protocol": "http/1.0",
             "rendererStartTime": 166.52399998903275,
@@ -1391,7 +1391,7 @@
         ],
         "items": [
           {
-            "url": "http://127.0.0.1:8080/images/products/Buy%20Twitter%20Account%20x%20bestpvashop.com.png",
+            "url": "http://127.0.0.1:8080/images/products/Buy%20Twitter%20Account%20x%20verifiedvault.xyz.png",
             "totalBytes": 1171768
           },
           {
@@ -1688,7 +1688,7 @@
         ],
         "items": [
           {
-            "url": "http://127.0.0.1:8080/images/products/Buy%20Twitter%20Account%20x%20bestpvashop.com.png",
+            "url": "http://127.0.0.1:8080/images/products/Buy%20Twitter%20Account%20x%20verifiedvault.xyz.png",
             "cacheLifetimeMs": 0,
             "totalBytes": 1171768,
             "wastedBytes": 1171768
@@ -1914,7 +1914,7 @@
                 "height": 4048
               },
               "snippet": "<div id=\"product-grid\" class=\"grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6\">",
-              "nodeLabel": "GOOGLE\nGoogle Reviews\n\nStarting from\n\n$25.00\n\nOrder Now\nSale!\nBestPVAShop\nNegat…"
+              "nodeLabel": "GOOGLE\nGoogle Reviews\n\nStarting from\n\n$25.00\n\nOrder Now\nSale!\nverifiedvault\nNegat…"
             },
             "value": {
               "type": "numeric",
@@ -2090,10 +2090,10 @@
                 "width": 292,
                 "height": 208
               },
-              "snippet": "<img src=\"/images/products/Buy Twitter Account x bestpvashop.com.png\" alt=\"Buy Twitter Accounts – Account Behavior &amp; Platform Testing Package\" class=\"absolute inset-0 w-full h-full object-cover group-hover:scale-110 transiti…\" loading=\"lazy\" decoding=\"async\" width=\"400\" height=\"300\">",
+              "snippet": "<img src=\"/images/products/Buy Twitter Account x verifiedvault.xyz.png\" alt=\"Buy Twitter Accounts – Account Behavior &amp; Platform Testing Package\" class=\"absolute inset-0 w-full h-full object-cover group-hover:scale-110 transiti…\" loading=\"lazy\" decoding=\"async\" width=\"400\" height=\"300\">",
               "nodeLabel": "Buy Twitter Accounts – Account Behavior & Platform Testing Package"
             },
-            "url": "http://127.0.0.1:8080/images/products/Buy%20Twitter%20Account%20x%20bestpvashop.com.png",
+            "url": "http://127.0.0.1:8080/images/products/Buy%20Twitter%20Account%20x%20verifiedvault.xyz.png",
             "totalBytes": 1171578,
             "wastedBytes": 1160979,
             "subItems": {
