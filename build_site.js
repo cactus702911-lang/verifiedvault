@@ -528,8 +528,8 @@ function generateLatestArticlesHtml(blogs) {
         <div class="mx-auto max-w-7xl px-4">
             <div class="flex items-center justify-between mb-10">
                 <div>
-                    <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">Latest <span class="text-cyan-400">Articles</span></h2>
-                    <p class="mt-2 text-lg leading-8 text-slate-400">Expert tips and guides for your digital growth.</p>
+                    <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">From <span class="text-cyan-400">Our Blog</span></h2>
+                    <p class="mt-2 text-lg leading-8 text-slate-400">We write about things that actually matter — account security, platform tips, and how to make the most of what you buy.</p>
                 </div>
                 <a href="${getDynamicUrl('blog', '', false)}" class="hidden sm:flex items-center gap-1 text-cyan-400 font-bold hover:text-cyan-300 transition-colors">View All <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
             </div>
@@ -640,7 +640,7 @@ function replaceGlobalPlaceholders(html, siteConfig) {
     output = output.replace(/{{HERO_BUTTON_TEXT}}/g, siteConfig.heroButtonText || 'Explore Services');
     output = output.replace(/{{POPUP_TITLE}}/g, siteConfig.popupTitle || 'Contact Support');
     output = output.replace(/{{POPUP_MESSAGE}}/g, siteConfig.popupMessage || "We're here to help! 24/7 Support Available.");
-    output = output.replace(/{{BADGE_TEXT}}/g, siteConfig.badgeText || 'Premium Quality PVA Accounts & Reviews');
+    output = output.replace(/{{BADGE_TEXT}}/g, siteConfig.badgeText || 'Trusted by Real Buyers, Built for Real Results');
     
     const analyticsCode = siteConfig.analyticsId ? `
     <script async src="https://www.googletagmanager.com/gtag/js?id=${siteConfig.analyticsId}"></script>
