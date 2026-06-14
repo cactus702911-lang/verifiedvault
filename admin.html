@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -496,7 +496,12 @@
                     
                     <div class="input-group">
                         <label class="input-label">Featured Image URL</label>
-                        <input type="text" id="edit-blog-image" class="input-field">
+                        <div class="flex gap-2">
+                            <input type="text" id="edit-blog-image" class="input-field" placeholder="/images/blog/image.webp or https://...">
+                            <input type="file" id="blog-image-upload" class="hidden" accept="image/*" onchange="handleImageUpload(this, 'edit-blog-image', 'blog')">
+                            <button onclick="document.getElementById('blog-image-upload').click()" class="btn-primary text-xs whitespace-nowrap">Upload File</button>
+                        </div>
+                        <p class="text-[10px] text-slate-500 mt-1">Upload an image — it will be auto-converted to WebP & AVIF for maximum speed.</p>
                     </div>
 
                     <div class="input-group">
@@ -668,7 +673,7 @@
             }
         }
 
-        async function handleImageUpload(input, targetId) {
+        async function handleImageUpload(input, targetId, folder) {
             const file = input.files[0];
             if (!file) return;
             
@@ -693,13 +698,15 @@
             const originalText = uploadBtn ? uploadBtn.textContent : 'Upload File';
             
             if (uploadBtn) {
-                uploadBtn.textContent = 'Uploading...';
+                uploadBtn.textContent = 'Converting...';
                 uploadBtn.disabled = true;
             }
 
             try {
+                // Determine target folder (products or blog)
+                const targetFolder = folder || 'products';
                 // Use the filename in the query string so the server knows where to save it
-                const response = await fetch(`/api/upload?filename=${encodeURIComponent(file.name)}`, {
+                const response = await fetch(`/api/upload?filename=${encodeURIComponent(file.name)}&folder=${targetFolder}`, {
                     method: 'POST',
                     body: file // Send raw file content
                 });
@@ -707,7 +714,7 @@
                 if (response.ok) {
                     const imagePath = await response.text();
                     document.getElementById(targetId).value = imagePath; // Set the path in the text input
-                    alert('Image uploaded successfully!');
+                    alert(`Image uploaded & converted to WebP/AVIF successfully!\nPath: ${imagePath}`);
                 } else {
                     const errorText = await response.text();
                     throw new Error(errorText || 'Upload failed');

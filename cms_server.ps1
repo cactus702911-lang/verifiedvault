@@ -35,8 +35,18 @@ while ($listener.IsListening) {
                 throw "Filename is required"
             }
 
-            # Ensure images/products directory exists
-            $imageDir = Join-Path $root "images\products"
+            # Determine target folder from query param (default: products)
+            $folder = $request.QueryString["folder"]
+            if ([string]::IsNullOrWhiteSpace($folder)) {
+                $folder = "products"
+            }
+            # Sanitize folder name - only allow 'products' or 'blog'
+            if ($folder -ne "blog") {
+                $folder = "products"
+            }
+
+            # Ensure images/<folder> directory exists
+            $imageDir = Join-Path $root "images\$folder"
             if (-not (Test-Path $imageDir)) {
                 New-Item -ItemType Directory -Force -Path $imageDir | Out-Null
             }
@@ -47,7 +57,7 @@ while ($listener.IsListening) {
             $fileStream.Close()
 
             # Optimize the image
-            Write-Host "Optimizing image: $filename" -ForegroundColor Yellow
+            Write-Host "Optimizing image: $filename -> images/$folder/" -ForegroundColor Yellow
             $optimizerScript = Join-Path $root "upload_optimizer.js"
             $optimizedFilename = & node $optimizerScript $filePath
             $optimizedFilename = $optimizedFilename.Trim()
@@ -61,7 +71,7 @@ while ($listener.IsListening) {
             $response.StatusCode = 200
             $response.StatusDescription = "OK"
             # Return the relative path to be stored in the CMS (Must start with / for root-relative)
-            $bytesOut = [System.Text.Encoding]::UTF8.GetBytes("/images/products/$optimizedFilename")
+            $bytesOut = [System.Text.Encoding]::UTF8.GetBytes("/images/$folder/$optimizedFilename")
             $response.OutputStream.Write($bytesOut, 0, $bytesOut.Length)
         } catch {
             Write-Host "Error uploading image: $_" -ForegroundColor Red
