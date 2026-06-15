@@ -908,6 +908,8 @@ function applyBlogStyleToHtml(html) {
     html = html.replace(/<ul(?![^>]*class=)([^>]*)>/g, '<ul class="list-disc pl-6 mb-4 space-y-2 text-slate-300"$1>');
     html = html.replace(/<ol(?![^>]*class=)([^>]*)>/g, '<ol class="list-decimal pl-6 mb-4 space-y-2 text-slate-300"$1>');
     html = html.replace(/<li(?![^>]*class=)([^>]*)>/g, '<li class="mb-1 leading-relaxed"$1>');
+    // Apply blog-style classes to links (only if no class already set)
+    html = html.replace(/<a(?![^>]*class=)([^>]*)>/g, '<a class="text-cyan-400 hover:text-cyan-300 underline underline-offset-4 decoration-cyan-400/50 hover:decoration-cyan-300 transition-colors"$1>');
     return html;
 }
 
