@@ -47,9 +47,9 @@ var categories = [
         "description": "Fully verified crypto exchange and digital bank accounts. KYC verified and ready for transactions.",
         "content": "\n            <h2 class=\"text-3xl font-bold text-white mb-6\">Secure Verified Banking & Crypto Accounts</h2>\n            <p class=\"text-slate-300 mb-4 text-lg\">\n                The financial world is tightening regulations. Opening accounts on platforms like **Binance**, **Wise**, or **PayPal** can be a nightmare of paperwork and KYC (Know Your Customer) delays. \n                **verifiedvault** simplifies this. We offer fully verified, Tier-1 accounts ready for immediate use.\n            </p>\n            <p class=\"text-slate-300 mb-8 text-lg\">\n                Whether you are a freelancer receiving international payments, a crypto trader needing multiple exchange accounts, or an e-commerce seller, our verified accounts are the solution.\n            </p>\n\n            <h3 class=\"text-2xl font-bold text-white mb-4\">What We Offer</h3>\n            <div class=\"grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8\">\n                <div class=\"bg-[#1E293B] p-4 rounded-lg border border-white/5\">\n                    <h4 class=\"font-bold text-cyan-400 mb-1\">Crypto Exchanges</h4>\n                    <p class=\"text-slate-400 text-sm\">Binance, Kraken, KuCoin, ByBit, Paxful, and more. Full KYC completed.</p>\n                </div>\n                <div class=\"bg-[#1E293B] p-4 rounded-lg border border-white/5\">\n                    <h4 class=\"font-bold text-blue-400 mb-1\">Digital Banks</h4>\n                    <p class=\"text-slate-400 text-sm\">Wise, Payoneer, Revolut, Bluebird. Perfect for cross-border transactions.</p>\n                </div>\n                <div class=\"bg-[#1E293B] p-4 rounded-lg border border-white/5\">\n                    <h4 class=\"font-bold text-indigo-400 mb-1\">Payment Gateways</h4>\n                    <p class=\"text-slate-400 text-sm\">Verified PayPal, Stripe, and Cash App accounts for merchants.</p>\n                </div>\n                <div class=\"bg-[#1E293B] p-4 rounded-lg border border-white/5\">\n                    <h4 class=\"font-bold text-purple-400 mb-1\">Wallets</h4>\n                    <p class=\"text-slate-400 text-sm\">Neteller, Skrill, Webmoney, Perfect Money.</p>\n                </div>\n            </div>\n\n            <h3 class=\"text-2xl font-bold text-white mb-4\">Safety & Compliance</h3>\n            <p class=\"text-slate-300 mb-6\">\n                Buying financial accounts requires trust. We ensure:\n            </p>\n            <ul class=\"list-none space-y-3 mb-8 text-slate-300\">\n                <li class=\"flex items-center gap-2\"><i data-lucide=\"lock\" class=\"w-4 h-4 text-green-500\"></i> <strong>Full Access:</strong> You get email, phone, and recovery access.</li>\n                <li class=\"flex items-center gap-2\"><i data-lucide=\"file-check\" class=\"w-4 h-4 text-green-500\"></i> <strong>Documents Included:</strong> ID/Passport scans provided for future verification if needed.</li>\n                <li class=\"flex items-center gap-2\"><i data-lucide=\"shield\" class=\"w-4 h-4 text-green-500\"></i> <strong>Clean History:</strong> No previous transaction history or flags.</li>\n            </ul>\n\n            <div class=\"bg-red-500/10 border border-red-500/20 p-4 rounded-xl mb-8\">\n                <strong class=\"text-red-400\">Important Note:</strong>\n                <p class=\"text-slate-400 text-sm mt-1\">\n                    These accounts are for legitimate business and personal use. Please use them responsibly and adhere to the platform's terms of service.\n                </p>\n            </div>\n\n            <p class=\"text-slate-300\">\n                Secure your financial freedom today. Browse our extensive list of verified banking and crypto accounts below.\n            </p>\n        ",
         "items": [
-            "Binance Account ",
             "PayPal Account",
-            "Verified Cash App Accounts"
+            "Verified Cash App Accounts",
+            "Verified Binance Accounts"
         ]
     },
     {
@@ -140,12 +140,12 @@ var products = [
     {
         "id": 54,
         "active": true,
-        "title": "Binance Account Packages – Fully Verified Profiles for Crypto Trading & Exchange Testing",
-        "display_title": "Binance Account ",
-        "slug": "binance-account-packages-fully-verified-profiles-for-crypto-trading-exchange-testing",
+        "title": "Verified Binance Accounts – for Crypto Traders & Developers",
+        "display_title": "Verified Binance Accounts",
+        "slug": "verified-binance-accounts-for-crypto-traders--developers",
         "category": "Bank & Crypto",
         "image": "",
-        "image_title": "Binance Account Packages – Fully Verified Profiles for Crypto Trading & Exchange Testing",
+        "image_title": "Verified Binance Accounts – KYC-Approved Profiles for Crypto Traders & Developers",
         "min_price": 9.99,
         "max_price": 19.99,
         "badge_color": "blue",
@@ -162,7 +162,7 @@ var products = [
         ],
         "long_description": "<p>Detailed description...</p>",
         "related_ids": [],
-        "seo_title": "",
+        "seo_title": "Buy Verified Binance Account – KYC Approved Crypto Trading Profiles | VerifiedVault",
         "seo_tags": ""
     },
     {
@@ -249,30 +249,26 @@ var products = [
         "title": "Buy Old Gmail Accounts",
         "category": "Google",
         "slug": "old-gmail-accounts-aged-trusted--ready-for-immediate-use",
-        "min_price": 18,
-        "max_price": 1450,
+        "min_price": 28,
+        "max_price": 500,
         "badge_color": "blue",
         "is_sale": true,
-        "short_description": "",
+        "short_description": "Need aged Gmail accounts with real account history for your marketing, outreach, or development projects? Our pre-created profiles come with verified phone numbers and recovery options. Fast delivery. Replacement guaranteed.",
         "features": [],
         "pricing": [
-            "05 Old Gmail Accounts only $18",
-            "10 Old Gmail Accounts Only $35",
-            "100 Old Gmail Accounts Only $310",
-            "30 Old Gmail Accounts Only $100",
-            "300 Old Gmail Accounts Only $900",
-            "50 Old Gmail Accounts Only $160",
-            "500 Old Gmail Accounts Only $1450"
+            "05 Old Gmail Accounts only $28",
+            "10 Old Gmail Accounts Only $55",
+            "100 Old Gmail Accounts Only $500"
         ],
-        "long_description": "<p><br></p>",
-        "meta_description": "",
+        "long_description": "<h2>Aged Gmail Account Packages – For Marketers, Agencies &amp; Developers</h2><p>Looking to <strong>get hold of old Gmail accounts</strong> with established account history? VerifiedVault offers carefully aged <strong>Gmail profiles</strong> created months or years in advance, designed specifically for bulk email management, marketing campaigns, and development environments where account age matters.</p><p>Whether you're running cold outreach campaigns, managing multiple client projects, or building app integrations that require pre-existing Google accounts — our <strong>aged account packages</strong> give you a head start without the wait.</p><h4>Why Choose Our Aged Gmail Packages?</h4><p>FeatureDetails✅ Real Account AgeAccounts created and aged over extended time periods✅ Recovery Options SetEach profile includes recovery email/phone for account control✅ Bulk-FriendlySuitable for businesses needing multiple accounts at once✅ Google Service AccessFull access to Drive, Docs, YouTube, and other Google services✅ Transparent ScopeClearly defined usage terms — no hidden conditions⚠️ No Suspension GuaranteeUsage policy violations on Google's end are beyond our control</p><h4>Who Is This For?</h4><ul><li><strong>Email Marketers</strong> – Run outreach campaigns from accounts with established sending history</li><li><strong>Digital Agencies</strong> – Manage multiple client-facing accounts under one workflow</li><li><strong>App Developers</strong> – Use pre-existing Google accounts for integration &amp; API testing</li><li><strong>Content Creators</strong> – Set up YouTube channels or Google Workspace tools on aged profiles</li></ul><h4>Account Age Tiers Available</h4><p>TierAccount AgeBest For🥉 Standard6 months – 1 yearGeneral use, basic Google services🥈 Aged1 – 3 yearsEmail marketing, YouTube setup🥇 Premium Aged3+ yearsHeavy bulk use, Google Workspace, AdSense-related setups</p><h4>Delivery &amp; Replacement Policy</h4><p>🚀 <strong>Instant Delivery</strong> — Most aged Gmail accounts are delivered within minutes to a few hours after payment confirmation. All credentials and recovery details are sent directly to your email.</p><p>🔄 <strong>Replacement Guarantee</strong> — If any account is inaccessible or fails to function as described upon first login, we provide a hassle-free replacement. See our full refund policy for complete details.</p><h4>Frequently Asked Questions</h4><p><strong>❓ Do these accounts come with recovery options?</strong></p><p> Yes. Each Gmail profile includes a recovery email and/or phone number, giving you full control over the account immediately after delivery.</p><p><strong>❓ Can I use these accounts for YouTube or Google Ads?</strong></p><p> Yes, aged accounts are commonly used for setting up YouTube channels, Google Workspace, and other Google services. However, compliance with each service's individual terms is the buyer's responsibility.</p><p><strong>❓ Is post-purchase support available?</strong></p><p> Absolutely. Our dedicated support team is available 24/7 via WhatsApp, Telegram, and Email for any technical queries or access issues.</p><p><strong>❓ What's the difference between the price tiers?</strong></p><p> Each tier corresponds to the account's age and verification status. Older accounts generally have more established history and broader service access.</p><p><strong>❓ Is my purchase information kept confidential?</strong></p><p> Yes. All orders are processed with complete privacy. We never share customer information with third parties under any circumstances.</p>",
+        "meta_description": "Get aged Gmail account packages at VerifiedVault. Ideal for marketers, agencies & developers needing pre-created profiles with account history. Instant delivery and replacement guarantee included.",
         "related_ids": [],
         "active": true,
         "display_title": "Old Gmail Accounts",
         "image": "",
-        "image_title": "Old Gmail Accounts – Aged History | Instant Delivery | verifiedvault",
-        "seo_title": "Buy Old Gmail Accounts – Verified & Aged | verifiedvault",
-        "seo_tags": ""
+        "image_title": "Buy Aged Gmail Profiles – Pre-Created Accounts with Account History",
+        "seo_title": "Old Gmail Accounts – Buy Aged & Pre-Verified Profiles for Bulk Use | VerifiedVault",
+        "seo_tags": "old gmail accounts, buy old gmail accounts, aged gmail account, pre-verified gmail account, bulk gmail accounts, gmail account with history, aged google account, gmail account package, verifiedvault gmail"
     },
     {
         "id": 12,
@@ -314,7 +310,7 @@ var products = [
         "max_price": 1200,
         "badge_color": "blue",
         "is_sale": true,
-        "short_description": "",
+        "short_description": "Need a verified GitHub account with existing contribution history for your development workflow? Our pre-configured profiles come with email verification and repository access ready to go. Fast delivery. Replacement guaranteed.",
         "features": [],
         "pricing": [
             "01 New GitHub Accounts only $12",
@@ -325,15 +321,15 @@ var products = [
             "100 New GitHub Accounts only $1200",
             "50 New GitHub Accounts only $600"
         ],
-        "long_description": "<p><br></p>",
-        "meta_description": "",
+        "long_description": "<h2>Verified GitHub Account Packages – For Developers, Teams &amp; Agencies</h2><p>Looking to <strong>secure a verified GitHub account</strong> without going through lengthy setup and verification steps? VerifiedVault offers professionally configured <strong>GitHub profiles</strong> with email-verified status, designed specifically for developers, open-source contributors, and teams managing multiple project repositories.</p><p>Whether you're a freelance developer needing a clean profile for client work, an agency managing several GitHub organizations, or a team lead setting up additional contributor accounts — our <strong>verified account packages</strong> save you time and hassle.</p><h4>Why Choose Our GitHub Account Packages?</h4><p>FeatureDetails✅ Email VerifiedAccounts come with confirmed email addresses, ready for full GitHub access✅ Repository ReadyCreate, fork, and contribute to repositories immediately after delivery✅ Profile CustomizationFull control to update bio, avatar, pinned repos, and contribution graph✅ Developer-FriendlySuitable for CI/CD integrations, API tokens, and SSH key setup✅ Transparent ScopeClearly defined usage terms — no hidden conditions⚠️ No Reputation GuaranteeExisting followers, stars, or contribution graphs are not included unless specified</p><h4>Who Is This For?</h4><ul><li><strong>Freelance Developers</strong> – Set up a clean professional profile for client-facing project work</li><li><strong>Agencies &amp; Dev Teams</strong> – Manage multiple GitHub accounts under organization workflows</li><li><strong>Open-Source Contributors</strong> – Get started on new projects without waiting for account verification</li><li><strong>QA &amp; Automation Engineers</strong> – Use dedicated accounts for testing CI/CD pipelines and bots</li></ul><h4>Account Configuration Options</h4><p>TierConfigurationBest For🥉 BasicEmail Verified OnlyNew profile setup, personal projects🥈 StandardEmail Verified + 2FA EnabledSecure team accounts, organization access🥇 Developer ProEmail Verified + 2FA + Initial Repos Set UpAgencies, client delivery, portfolio showcase</p><h4>Delivery &amp; Replacement Policy</h4><p>🚀 <strong>Instant Delivery</strong> — Most verified GitHub accounts are delivered within minutes to a few hours after payment confirmation. Login credentials and recovery details are sent directly to your email.</p><p>🔄 <strong>Replacement Guarantee</strong> — If any account fails to function as described upon first login, we provide a hassle-free replacement. See our full refund policy for complete details.</p><h4>Frequently Asked Questions</h4><p><strong>❓ Can I change the username and email after delivery?</strong></p><p> Yes. Once delivered, you have full access to update the username, associated email, password, and security settings as needed.</p><p><strong>❓ Do these accounts come with existing repositories or followers?</strong></p><p> Standard accounts come clean and ready for setup. If you require accounts with pre-existing repositories or activity history, choose the Developer Pro tier or contact support for custom requests.</p><p><strong>❓ Can I enable two-factor authentication myself?</strong></p><p> Yes, and we recommend doing so immediately after gaining access for maximum account security.</p><p><strong>❓ Is post-purchase support available?</strong></p><p> Absolutely. Our dedicated support team is available 24/7 via WhatsApp, Telegram, and Email for any technical queries or access issues.</p><p><strong>❓ Is my purchase information kept confidential?</strong></p><p> Yes. All orders are processed with complete privacy. We never share customer information with third parties under any circumstances.</p>",
+        "meta_description": "Get verified GitHub account packages at VerifiedVault. Ideal for developers, agencies & teams needing established profiles with contribution history. Instant delivery and replacement guarantee included.",
         "active": true,
         "display_title": "GitHub Account",
         "image": "",
-        "image_title": "Verified GitHub account available to buy – verifiedvault",
+        "image_title": "Buy Verified GitHub Profiles – Pre-Configured Accounts with Repository Access",
         "related_ids": [],
-        "seo_title": "Verified GitHub Account – Buy Instantly & Safely | verifiedvault",
-        "seo_tags": ""
+        "seo_title": "Verified GitHub Account – Buy Pre-Configured Developer Profiles | VerifiedVault",
+        "seo_tags": "verified github account, buy github account, github account for developers, purchase github profile, github account package, verified developer account, github account with email verification, aged github account, verifiedvault github"
     }
 ];
 
