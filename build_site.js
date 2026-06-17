@@ -115,7 +115,8 @@ function escapeXml(str) {
     .replace(/</g, '&lt;')
     .replace(/>/g, '&gt;')
     .replace(/"/g, '&quot;')
-    .replace(/'/g, '&apos;');
+    .replace(/'/g, '&apos;')
+    .replace(/[^\x09\x0A\x0D\x20-\x7E]/g, c => `&#${c.charCodeAt(0)};`);
 }
 
 /**
