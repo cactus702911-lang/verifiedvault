@@ -1146,7 +1146,7 @@ console.log("Building Category Pages...");
 cleanDirectory(paths.category);
 const uniqueCategories = [...new Set(products.map(p => p.category))];
 let sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n';
-sitemap += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n';
+sitemap += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n';
 
 // Skip old escapeXml definition
 
@@ -1771,9 +1771,6 @@ blogs.forEach((post, index) => {
     sitemap += `    <loc>${escapeXml(getDynamicUrl('blog', post.slug))}</loc>\n`;
     sitemap += '    <lastmod>' + new Date().toISOString().split('T')[0] + '</lastmod>\n';
     sitemap += '    <priority>0.7</priority>\n';
-    if (post.image) {
-        sitemap += `    <image:image>\n      <image:loc>${escapeXml(encodeURI(getImageUrl(post.image, baseUrl)))}</image:loc>\n    </image:image>\n`;
-    }
     sitemap += '  </url>\n';
 
     rssFeed += `
@@ -1799,9 +1796,6 @@ products.forEach(product => {
     sitemap += `    <loc>${escapeXml(getDynamicUrl('product', product.slug))}</loc>\n`;
     sitemap += '    <lastmod>' + new Date().toISOString().split('T')[0] + '</lastmod>\n';
     sitemap += '    <priority>0.8</priority>\n';
-    if (product.image) {
-        sitemap += `    <image:image>\n      <image:loc>${escapeXml(encodeURI(getImageUrl(product.image, baseUrl)))}</image:loc>\n      <image:title>${escapeXml(product.image_title || product.title)}</image:title>\n    </image:image>\n`;
-    }
     sitemap += '  </url>\n';
 
     // --- Prepare Data ---
