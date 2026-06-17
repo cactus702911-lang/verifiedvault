@@ -2644,22 +2644,7 @@ console.log("feed.xml created.");
 
 const robots = `User-agent: *
 Disallow: /admin.html
-Allow: /$
-Allow: /blog/
-Allow: /product/
-Allow: /categories/
-Allow: /about/
-Allow: /contact/
-Allow: /faq/
-Allow: /guides/
-Allow: /services/
-Allow: /policies/
-Allow: /sitemap.xml
-Allow: /sitemap.html
-Allow: /images/
-Allow: /*.css$
-Allow: /*.js$
-Allow: /favicon.svg
+
 Sitemap: ${getDynamicUrl('home')}${paths.sitemap}`;
 fs.writeFileSync('robots.txt', robots);
 console.log("robots.txt created.");
