@@ -1620,18 +1620,63 @@ blogs.forEach((post, index) => {
             .mobile-menu-btn-container { display: none !important; }
             #mobile-menu, #mobile-menu-backdrop { display: none !important; }
         }
-        
+
         /* Fallback for H1, H2, H3 just in case typography plugin misses anything */
-        .prose h1, .prose h2, .prose h3 {
-            display: block !important;
-        }
-        .prose h1 { font-size: 2.25rem !important; line-height: 2.5rem !important; margin-bottom: 1.5rem !important; margin-top: 2rem !important; font-weight: 800 !important; }
-        .prose h2 { font-size: 1.875rem !important; line-height: 2.25rem !important; margin-bottom: 1.25rem !important; margin-top: 1.75rem !important; font-weight: 700 !important; }
-        .prose h3 { font-size: 1.5rem !important; line-height: 2rem !important; margin-bottom: 1rem !important; margin-top: 1.5rem !important; font-weight: 600 !important; }
-        .prose p { margin-bottom: 1.25rem !important; }
+        .prose h1, .prose h2, .prose h3 { display: block !important; }
+        .prose h1 { font-size: 2.25rem !important; line-height: 2.5rem !important; margin-bottom: 1.5rem !important; margin-top: 2rem !important; font-weight: 800 !important; color: #fff !important; }
+        .prose h2 { font-size: 1.875rem !important; line-height: 2.25rem !important; margin-bottom: 1.25rem !important; margin-top: 1.75rem !important; font-weight: 700 !important; color: #fff !important; }
+        .prose h3 { font-size: 1.5rem !important; line-height: 2rem !important; margin-bottom: 1rem !important; margin-top: 1.5rem !important; font-weight: 600 !important; color: #22d3ee !important; }
+        .prose p { margin-bottom: 1.25rem !important; color: #cbd5e1 !important; }
         .prose ul { list-style-type: disc !important; padding-left: 1.5rem !important; margin-bottom: 1.25rem !important; }
         .prose ol { list-style-type: decimal !important; padding-left: 1.5rem !important; margin-bottom: 1.25rem !important; }
-        .prose li { margin-bottom: 0.5rem !important; }
+        .prose li { margin-bottom: 0.5rem !important; color: #cbd5e1 !important; }
+
+        /* ─── Link Styling: Internal & External ─── */
+        .prose a {
+            color: #22d3ee !important;
+            text-decoration: underline !important;
+            text-decoration-color: rgba(34, 211, 238, 0.45) !important;
+            text-underline-offset: 3px !important;
+            font-weight: 600 !important;
+            transition: color 0.2s, text-decoration-color 0.2s !important;
+        }
+        .prose a:hover {
+            color: #67e8f9 !important;
+            text-decoration-color: rgba(103, 232, 249, 0.8) !important;
+        }
+        /* External link indicator arrow */
+        .prose a[target="_blank"]::after {
+            content: " ↗";
+            font-size: 0.75em;
+            opacity: 0.7;
+            vertical-align: super;
+            font-weight: 400;
+        }
+
+        /* ─── Blockquote ─── */
+        .prose blockquote {
+            border-left: 4px solid #22d3ee !important;
+            background: rgba(34, 211, 238, 0.05) !important;
+            padding: 1rem 1.25rem !important;
+            margin: 1.5rem 0 !important;
+            border-radius: 0 0.5rem 0.5rem 0 !important;
+            color: #e2e8f0 !important;
+            font-style: normal !important;
+        }
+
+        /* ─── Tables ─── */
+        .prose table { width: 100% !important; border-collapse: collapse !important; margin: 1.5rem 0 !important; }
+        .prose th { background: #1E293B !important; color: #94a3b8 !important; padding: 10px 12px !important; text-align: left !important; border: 1px solid #334155 !important; font-weight: 700 !important; }
+        .prose td { padding: 10px 12px !important; border: 1px solid #334155 !important; color: #cbd5e1 !important; }
+        .prose tr:nth-child(even) { background: rgba(15, 23, 42, 0.5) !important; }
+
+        /* ─── Inline code & strong ─── */
+        .prose strong { color: #f1f5f9 !important; font-weight: 700 !important; }
+        .prose em { color: #94a3b8 !important; font-style: italic !important; }
+        .prose code { background: #1E293B !important; color: #22d3ee !important; padding: 2px 6px !important; border-radius: 4px !important; font-size: 0.875em !important; }
+
+        /* ─── HR divider ─── */
+        .prose hr { border-color: rgba(255,255,255,0.08) !important; margin: 2rem 0 !important; }
     </style>
 </head>
 <body class="bg-[#0B1120] text-slate-200 font-sans antialiased">
