@@ -57,7 +57,7 @@ const paths = siteConfig.pathConfig || {
     product: 'product',
     category: 'categories',
     blog: 'blog',
-    sitemap: 'sitemap.xml'
+    sitemap: 'sitemap-main.xml'
 };
 
 function slugify(str) {
@@ -2599,8 +2599,8 @@ sitemap += '    <lastmod>' + new Date().toISOString().split('T')[0] + '</lastmod
 sitemap += '    <priority>0.5</priority>\n';
 sitemap += '  </url>\n';
 sitemap += '</urlset>';
-fs.writeFileSync('sitemap.xml', sitemap);
-console.log("sitemap.xml and sitemap.html created.");
+fs.writeFileSync('sitemap-main.xml', sitemap);
+console.log("sitemap-main.xml and sitemap.html created.");
 
 // Generate RSS Feed for Top 10 Newest Products
 products.slice(-10).forEach(product => {
