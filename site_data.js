@@ -1,4 +1,4 @@
-﻿// site_data.js
+// site_data.js
 
 // --- Site Configuration (CMS Data) ---
 var siteConfig = {
@@ -6,8 +6,8 @@ var siteConfig = {
     "metaDescription": "Buy PVA accounts, Google reviews, old Gmail accounts & aged social media accounts from verifiedvault. Verified, instant delivery, 5,000+ satisfied customers. Packages from $9.",
     "logoText": "VerifiedVault",
     "logoBadge": "🔥",
-    "heroTitle": "Get Verified <span class='text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 text-glow'>PVA Accounts</span> <br/>That Actually Work",
-    "heroSubtitle": "We know how hard it is to find accounts you can actually trust. Every account we sell is phone verified, tested before delivery, and backed by real human support — not bots. <span class='text-slate-200'>Over 5,000 customers</span> have placed their trust in us.",
+    "heroTitle": "Buy Premium <span class='text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 text-glow'>PVA Accounts</span> <br/>& Verified Reviews",
+    "heroSubtitle": "Boost your digital presence with high-quality phone verified accounts (PVA), aged social media profiles, and non-drop Google reviews. Every account is thoroughly tested, secure, and ready for immediate use. Join <span class='text-slate-200'>5,000+ satisfied marketers</span> scaling their business.",
     "heroButtonText": "Explore Services",
     "heroButtonLink": "#products-section",
     "supportEmail": "support@verifiedvault.xyz",
